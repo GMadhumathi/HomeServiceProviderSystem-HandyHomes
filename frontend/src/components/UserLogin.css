@@ -1,0 +1,192 @@
+.body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-image: url('../assets/userF.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    /* height: 110vh; */
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.useL-forgot-pass{
+    text-align: right;
+    padding-top: 0;
+}
+
+.useL-forgot-pass a{
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.useL-forgot-pass a:hover{
+    text-decoration: underline;
+}
+
+.user-login-container {
+    max-width: 370px;
+    width: 90%;
+    /* margin-top: 80px;
+    margin-left: 410px; */
+    margin: auto;
+    /*height: auto; */
+    background-color:rgba(197, 225, 165,0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-login-title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.useL-form-group {
+    margin-bottom: 20px; /* Increased margin between form groups */
+}
+
+.useL-form-group label {
+    font-size: 18px;
+    color: #9c27b0;
+    font-weight: bold;
+    display: block; /* Makes the label appear on its own line */
+    margin-bottom: 8px; /* Adds space between label and input box */
+}
+
+.useL-form-group input {
+    width: 90%;
+    padding: 12px; /* Adds padding inside the input box */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff; /* White background for the input box */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+.useL-form-group input:focus {
+    border-color: #8e44ad; /* Change border color when input is focused */
+    outline: none; /* Remove the default focus outline */
+}
+.useL-form-group select {
+    width: 97%;
+    padding: 12px; /* Adds padding inside the input box */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff; /* White background for the input box */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+} 
+
+select:focus {
+    border-color: #8e44ad;
+    outline: none;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+}
+
+.useL-form-group  input[type="submit"] {
+    width: 80%;
+    padding: 12px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    margin-left: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.useL-form-group  input[type="submit"]:hover {
+    background-color: #570a8a;
+    transform: scale(1.05);
+}
+
+.useL-toggle-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.useL-toggle-btn a {
+    text-decoration: none;
+    color: #4a148c;
+    font-size: 18px;
+}
+
+.useL-toggle-btn a:hover {
+    text-decoration: underline;
+}
+
+.useL-error{
+    color: red;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.useL-password-container {
+    position: relative; /* To position the icon inside the input field */
+}
+
+.useL-show-pass-icon {
+    position: absolute;
+    right: 20px; /* Position the icon towards the right inside the input */
+    top: 54%;
+    transform: translateY(-50%); /* Center the icon vertically */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (min-width:601px) and (max-width:1000px){
+    .body{
+        background-image: url('../assets/user3.jpg');
+        background-size: cover;
+        
+    }
+
+    .user-login-container{
+        max-width: 330px;
+        margin-top: 350px;
+        margin-left:  220px;
+        width: 80%;
+        transform: scale(1.5);
+        height: auto;
+        background-color:rgba(197, 225, 165,0.8);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width:600px){               /*Smaller device : Mobile */
+    .body{
+        background-image: url('../assets/user21.jpg');
+        background-size: cover;
+        
+    }
+
+    .user-login-container{
+        max-width: 300px;
+        width: 90%;
+        margin-top: 70px;
+        margin-left:  50px;
+        margin-right: 50px;
+        height: auto;
+        background-color:rgba(197, 225, 165,0.8);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .useL-show-pass-icon {
+        position: absolute;
+        right: 5px; /* Position the icon towards the right inside the input */
+        top: 54%;
+        transform: translateY(-50%); /* Center the icon vertically */
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

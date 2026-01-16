@@ -1,0 +1,76 @@
+.assign-pro {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .assign-pro th, .assign-pro td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .assign-pro th {
+    background-color: rgba(87, 10, 138, 0.8); /* Dark Purple */
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* font-family: 'Times New Roman', Times, serif; */
+  }
+  
+  th:last-child {
+    color: transparent; /* Make the text invisible */
+    background-color: transparent; /* Keep the background consistent */
+    border: none; /* Maintain styling without a visible border */
+}
+  .assign-pro tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .assign-pro button {
+    padding: 8px 14px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .assign-pro button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);    /* Slight zoom effect */
+  }
+  
+  .assign-pro button:active {
+    background-color: #004494;
+    transform: scale(0.98);
+  }
+
+  /* Assign provider Modal */
+  .assign-provider-popup {
+    width: 520px !important;
+  }
+  
+  .assign-confirm-button {
+    background-color: #6c63ff !important;
+    color: white !important;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 6px;
+  }
+  
+  .assign-cancel-button {
+    background-color: #888 !important;
+    color: white !important;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 6px;
+  }
+  

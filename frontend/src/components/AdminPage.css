@@ -1,0 +1,117 @@
+/* Sidebar */
+.admin-sidebar {
+  width: 220px;
+  background-color: #1e1e2f;
+  color: white;
+  padding: 20px;
+}
+
+.admin-sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+  /* text-align: center; */
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 7px;
+}
+
+.admin-sidebar ul li {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  width: 80%;
+  border-radius: 8px;
+  padding: 10px;
+  /* border: 1px solid #c8baba; */
+}
+
+.admin-sidebar ul li:hover{
+  border: 1px solid #fff;
+}
+.admin-sidebar ul li a {
+  color: #ddd;
+  text-decoration: none;
+  text-align: left;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.admin-sidebar ul li a:hover {
+  color:  aqua;
+  transform: scale(1.1);
+
+}
+
+/* Header */
+.admin-header {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.admin-dash-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.admin-dash-logo img{
+  width: 60px;  /* Reduce logo size */
+  height: 60px;
+}
+.admin-com-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  color:#8a2be2;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px; /* Adjust margin */
+}
+/* Admin Page */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-container {
+  display: flex;
+  height: 100vh;
+}
+
+.admin-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+
+/* Admin Main */
+.admin-main {
+  padding: 30px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.admin-main h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.placeholder-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: #555;
+}

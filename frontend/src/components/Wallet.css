@@ -1,0 +1,93 @@
+.wallet-body {
+    background-color: #dcedc8; /* Light green background */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensures full width */
+    min-height: 100vh; /* Ensures full height of the screen */
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-content {
+    flex: 1; /* Makes sure content takes the available space */
+    text-align: center;
+    padding: 20px;
+}
+
+.wallet-content h1{
+    font-family: "Georgia, serif";
+    color: #145a32;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* Main Container for Both Wallet Features */
+.wallet-main-container {
+    display: flex;
+    flex-direction: row; /* Stacks containers vertically */
+    gap: 100px;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Wallet Balance Container */
+.wallet-balance-container {
+    padding: 20px;
+    /* background-color: #9CCC65; */
+    /* background: rgba(255, 255, 255, 0.4);  */
+    background-color: rgba(156, 204, 101, 0.5); 
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 45%;
+}
+
+.wallet-balance-container h2 {
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ed23c8;
+}
+
+.wallet-balance-container .wallet-amount {
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #251ede; */
+    color:darkgreen;
+    margin-top: 10px;
+}
+
+/* Wallet Recharge Container */
+.wallet-recharge-container {
+    padding: 20px;
+    /* background-color: #FFCC80; */
+    background-color: rgba(255, 204, 128, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width:45%;
+}
+
+.wallet-recharge-container h2 {
+    font-weight: bold;
+    color: #E65100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wallet-recharge-container .recharge-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color: #FFF;
+    background-color: #FF5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.wallet-recharge-container .recharge-button:hover{
+    background-color: #ff4005; /* Slightly darker shade of orange for the hover effect */
+    transform: scale(1.05); 
+}

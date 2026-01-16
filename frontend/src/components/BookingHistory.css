@@ -1,0 +1,176 @@
+.hist-body {
+    background-color: #dcedc8; /* Light green background */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensures full width */
+    min-height: 100vh; /* Ensures full height of the screen */
+    display: flex;
+    flex-direction: column;
+}
+
+.hist-content {
+    flex: 1; /* Makes sure content takes the available space */
+    text-align: center;
+    padding: 20px;
+}
+.booking-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .booking-table th, .booking-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .booking-table th {
+    background-color: rgba(87, 10, 138, 0.8); /* Dark Purple */
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* font-family: 'Times New Roman', Times, serif; */
+  }
+  
+  th:last-child {
+    color: transparent; /* Make the text invisible */
+    background-color: transparent; /* Keep the background consistent */
+    border: none; /* Maintain styling without a visible border */
+}
+
+  .booking-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .cancel-btn {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.cancel-btn:hover {
+    background-color: rgb(67, 33, 33);
+}
+
+  td{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .no-book{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+  }
+  .status-completed {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-pending {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-confirmed {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .status-cancelled{
+    color: red;
+    font-weight: bold;
+  }
+  .payment-paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .payment-unpaid {
+    color: red;
+    font-weight: bold;
+  }
+  .download-icon {
+    cursor: pointer;
+    color: black;  /* Orange color */
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.download-icon:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+    color: #a04000; /* Darker orange on hover */
+}
+
+.download-btn-container {
+  display: flex;
+  justify-content: flex-end; /* Moves button to the right */
+  margin-bottom: 15px; /* Adds spacing below */
+  margin-right: 20px;
+}
+.download-report-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px; /* Adjust spacing */
+}
+
+.download-report-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* Customize Confirm and Cancel Buttons */
+.custom-swal-confirm {
+  background-color: #28a745 !important;
+  color: white !important;
+  padding: 10px 15px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+}
+
+.custom-swal-cancel {
+  background-color: #dc3545 !important;
+  color: white !important;
+  padding: 10px 15px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+}
+
+.provider-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: blue;
+}
+
+.provider-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.pay-now-btn {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pay-now-btn:hover {
+  background-color: darkgreen;
+}

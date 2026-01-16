@@ -33,15 +33,15 @@ Home Services Provider System – Customer Portal is a web-based application tha
 
 <table>
   <tr>
-    <td><img src="Screenshot/home.png" width="300"></td>
-    <td><img src="Screenshot/book.png" width="300"></td>
+    <td><img src="Screenshot/home.png" width="500"></td>
+    <td><img src="Screenshot/book.png" width="500"></td>
   </tr>
   <tr>
-    <td><img src="Screenshot/history.png" width="300"></td>
-    <td><img src="Screenshot/payment.png" width="300"></td>
+    <td><img src="Screenshot/history.png" width="500"></td>
+    <td><img src="Screenshot/payment.png" width="500"></td>
   </tr>
   <tr>
-    <td><img src="Screenshot/paySuccess.png" width="300"></td>
-    <td><img src="Screenshot/feedback.png" width="300"></td>
+    <td><img src="Screenshot/paySuccess.png" width="500"></td>
+    <td><img src="Screenshot/feedback.png" width="500"></td>
   </tr>
 </table>

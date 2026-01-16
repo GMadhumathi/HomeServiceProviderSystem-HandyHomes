@@ -28,4 +28,17 @@ Home Services Provider System – Customer Portal is a web-based application tha
 - **Feedback Module** – Rate and review services to improve service quality.
 - **Offline Service Booking Module** – SMS-based service booking using Twilio without internet access.
 
-Project is currently under development.
+
+# Sample Screenshots
+
+![](Screenshot/home.png)
+
+![](Screenshot/book.png)
+
+![](Screenshot/history.png)
+
+![](Screenshot/payment.png)
+
+![](Screenshot/paySuccess.png)
+
+![](Screenshot/feedback.png)

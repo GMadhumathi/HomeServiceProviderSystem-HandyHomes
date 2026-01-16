@@ -1,6 +1,8 @@
 # Home Service Provider System - Customer Portal
 
+<p align="justify">
 Home Services Provider System – Customer Portal is a web-based application that enables customers to easily book and manage home services such as plumbing, electrical repairs, and cleaning. It uses a secure wallet-based payment system with Razorpay integration, supports SMS-based bookings via Twilio, prioritizes emergency requests, and automates provider assignment, notifications, payments, and feedback. The system is built using React.js, Node.js, Express, and MySQL, offering a secure, fast, and user-friendly solution for managing home services.
+</p>
 
 ## Technologies Used
 - Frontend: React.js
